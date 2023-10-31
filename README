@@ -1,0 +1,25 @@
+**Predicción de precios de Inmuebles en C.A.B.A mediante técnicas de aprendizaje automático**
+
+Los precios del mercado inmobiliario de la Ciudad Autónoma de Buenos Aires son variados y surgen
+como una consecuencia de muchos factores, presentando el desafio de determinar que valor resulta
+adecuado para un inmueble. En este trabajo se recolectaron datos de inmuebles de la Ciudad de
+Buenos Aires publicados en el sitio https://data.buenosaires.gob.ar/dataset/mercado-inmobiliario y se utilizó para
+entrenar modelos de aprendizaje automático que permitan estimar los precios de las propiedades
+determinando las caracteríısticas más importantes para este fin.
+
+El dataset utilizado para este proyecto se puede encontrar en este link. https://docs.google.com/spreadsheets/d/120bbEF6W51y5nJxnxZ2zYjQGZ5cCc1X7gXBdL394wiI/edit#gid=531073713
+
+La adquisición de un inmueble representa una inversión significativa y un hito en la vida de la mayoría de las personas, debido a la importancia de la compra y a las grandes sumas de dinero que se deben afrontar. Basta con hacer una rápida búsqueda en inmobiliarias o sitios web de propiedades para darse cuenta de la diversidad de características y precios disponibles. Algunas diferencias en las características de los inmuebles pueden hacer que la influencia en el precio parezca obvia. No obstante, existen numerosas variables que un vendedor puede considerar al establecer el precio de su propiedad, lo que puede llevar a conclusiones premeditadas. Estas variables pueden ser inherentes al inmueble, estar relacionadas con su ubicación geográfica o basarse en referencias de propiedades similares, así como en la necesidad y urgencia del vendedor, entre otras consideraciones.
+
+En última instancia, determinar el precio de un inmueble no es una tarea sencilla. Además, es importante tener en cuenta que, como cualquier mercado, el mercado inmobiliario experimenta fluctuaciones al alza y a la baja que están influenciadas por el contexto macroeconómico del país. En el caso de Argentina, las crisis económicas frecuentes añaden complejidad adicional, lo que complica aún más el análisis si se consideran datos históricos.
+
+En cuanto a la importancia de una estimación precisa, esta radica en la perspectiva tanto del vendedor, que busca obtener el beneficio adecuado, como del comprador, que no desea pagar más de lo justo. Además, una buena estimación proporciona la capacidad de determinar si un inmueble tiene una valoración adecuada, si está sobrevalorado o si representa una oportunidad de inversión rentable debido a su precio más bajo.
+
+Por lo tanto, habiendo considerado algunas de las complejidades de este problema, es necesario señalar que existen concepciones, quizás acertadas, sobre los valores de referencia de un inmueble. En particular, se suele asociar la ubicación y el tamaño de una vivienda como factores determinantes de su precio. De hecho, existen índices específicos que reflejan el valor por metro cuadrado de las propiedades por zona o barrio. En este trabajo se intentará verificar la validez de estas afirmaciones.
+
+El objetivo general de este trabajo es predecir el precio del M2 inmuebles de la Ciudad Autónoma
+de Buenos Aires siguiendo un proceso de descubrimiento de conocimiento. Para esto se definieron
+tres objetivos específicos:
+Obtener un Dataset con inmuebles en oferta en la Ciudad de Buenos Aires.
+Efectuar limpieza del Dataset.
+Ajustar modelos de predicción de precios a partir de las características que ofrezca el Dataset mediante una téncica de regresión basada en Aprendizaje Automático.
